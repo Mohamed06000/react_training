@@ -24,6 +24,18 @@ ReactDOM.render(
     document.getElementById('root')
 );
 
+//Props
+
+function Hello2({adjectif = 'world'}){
+    return <p>Hello {adjectif}!</p>
+}
+
+ReactDOM.render(
+    <React.StrictMode>
+        <Hello2 adjectif={'you!'}/>
+    </React.StrictMode>,
+    document.getElementById('root')
+);
 
 
 // If you want to start measuring performance in your app, pass a function
