@@ -1,18 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 
-ReactDOM.render(
-    <React.StrictMode>
-        <App />
-    </React.StrictMode>,
-    document.getElementById('root')
-);
-
-//JSX
+/*//JSX
 function Hello(){
     return <p>Hello World!</p>
 }
@@ -33,6 +25,13 @@ function Hello2({adjectif = 'world'}){
 ReactDOM.render(
     <React.StrictMode>
         <Hello2 adjectif={'you!'}/>
+    </React.StrictMode>,
+    document.getElementById('root')
+);*/
+
+ReactDOM.render(
+    <React.StrictMode>
+        <App />
     </React.StrictMode>,
     document.getElementById('root')
 );
