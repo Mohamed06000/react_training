@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="319d9198-10a6-4a05-9a0c-cbc24c13198d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/HallOfFame.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HallOfFame.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,7 +81,7 @@
       <option name="presentableId" value="Default" />
       <updated>1607455724412</updated>
       <workItem from="1607455726772" duration="3039000" />
-      <workItem from="1607532017384" duration="5134000" />
+      <workItem from="1607532017384" duration="7919000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1607456283362</created>
@@ -128,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607538802019</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Condition if in JSX with &amp;&amp;">
+      <created>1607622695093</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1607622695093</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,17 +153,18 @@
     <MESSAGE value="composant guesscount" />
     <MESSAGE value="composant app" />
     <MESSAGE value="add evenment onclick" />
-    <option name="LAST_COMMIT_MESSAGE" value="add evenment onclick" />
+    <MESSAGE value="Condition if in JSX with &amp;&amp;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Condition if in JSX with &amp;&amp;" />
   </component>
   <component name="WindowStateProjectService">
     <state x="530" y="178" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1607535105445">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="530" y="178" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1600.860@0.0.1600.860" timestamp="1607535105445" />
-    <state x="432" y="47" key="CommitChangelistDialog2" timestamp="1607538800721">
+    <state x="432" y="47" key="CommitChangelistDialog2" timestamp="1607622693637">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="432" y="47" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1607538800721" />
+    <state x="432" y="47" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1607622693637" />
     <state width="1579" height="222" key="GridCell.Tab.0.bottom" timestamp="1607622626042">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -169,9 +181,9 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1579" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1607622626042" />
-    <state x="392" y="164" key="Vcs.Push.Dialog.v2" timestamp="1607538808306">
+    <state x="392" y="164" key="Vcs.Push.Dialog.v2" timestamp="1607622704667">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="164" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1607538808306" />
+    <state x="392" y="164" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1607622704667" />
   </component>
 </project>
