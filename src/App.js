@@ -24,8 +24,9 @@ class App extends Component {
     return shuffle(result)
   }
 
-  handleCardClick(card) {
-    console.log(card, 'clicked')
+  //Arrow fx For binding
+  handleCardClick = (card) => {
+    console.log(card, 'clicked', this)
   }
 
   render() {
@@ -38,7 +39,7 @@ class App extends Component {
               card={card}
               feedback="visible"
               key={index}
-              onClick={this.handleCardClick()}
+              onClick={this.handleCardClick}
               />
               )
               )}
