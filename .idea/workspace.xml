@@ -4,7 +4,6 @@
     <list default="true" id="319d9198-10a6-4a05-9a0c-cbc24c13198d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Card.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Card.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +79,7 @@
       <workItem from="1607455726772" duration="3039000" />
       <workItem from="1607532017384" duration="8217000" />
       <workItem from="1607711673719" duration="2951000" />
-      <workItem from="1607778820562" duration="2436000" />
+      <workItem from="1607778820562" duration="3312000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1607456283362</created>
@@ -152,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607712852111</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add state at our component">
+      <created>1607782722206</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1607782722206</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,17 +175,18 @@
     <MESSAGE value="Condition if in JSX with &amp;&amp;" />
     <MESSAGE value="array used with map" />
     <MESSAGE value="add propTypes on our props" />
-    <option name="LAST_COMMIT_MESSAGE" value="add propTypes on our props" />
+    <MESSAGE value="add state at our component" />
+    <option name="LAST_COMMIT_MESSAGE" value="add state at our component" />
   </component>
   <component name="WindowStateProjectService">
     <state x="530" y="178" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1607535105445">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="530" y="178" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1600.860@0.0.1600.860" timestamp="1607535105445" />
-    <state x="432" y="47" key="CommitChangelistDialog2" timestamp="1607716863787">
+    <state x="432" y="47" key="CommitChangelistDialog2" timestamp="1607782718840">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="432" y="47" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1607716863787" />
+    <state x="432" y="47" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1607782718840" />
     <state width="1579" height="276" key="GridCell.Tab.0.bottom" timestamp="1607782426522">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -200,17 +207,5 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="392" y="164" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1607716870928" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/App.js</url>
-          <line>75</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
