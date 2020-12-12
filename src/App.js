@@ -71,7 +71,7 @@ class App extends Component {
     const matched = cards[newPair[0]] === cards[newPair[1]]
     this.setState({ currentPair: newPair, guesses: newGuesses })
     if (matched) {
-      this.setState({ matchedCardIndices: [...matchedCardIndices, ...newPair] })
+      this.setState({ matchedCardIndices: [...matchedCardIndices, ...newPair] }) //or matchedCardIndices.concat(newPair)
     }
     setTimeout(() => this.setState({ currentPair: [] }), VISUAL_PAUSE_MSECS)
   }
