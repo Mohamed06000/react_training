@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="319d9198-10a6-4a05-9a0c-cbc24c13198d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/HighScoreInput.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HighScoreInput.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HallOfFame.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/HallOfFame.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -80,7 +83,9 @@
       <workItem from="1607532017384" duration="8217000" />
       <workItem from="1607711673719" duration="2951000" />
       <workItem from="1607778820562" duration="3312000" />
-      <workItem from="1607796304788" duration="1199000" />
+      <workItem from="1607796304788" duration="3743000" />
+      <workItem from="1607882102592" duration="3878000" />
+      <workItem from="1607979059560" duration="6235000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1607456283362</created>
@@ -159,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607782722206</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="update comment">
+      <created>1607797918104</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1607797918104</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,17 +189,18 @@
     <MESSAGE value="array used with map" />
     <MESSAGE value="add propTypes on our props" />
     <MESSAGE value="add state at our component" />
-    <option name="LAST_COMMIT_MESSAGE" value="add state at our component" />
+    <MESSAGE value="update comment" />
+    <option name="LAST_COMMIT_MESSAGE" value="update comment" />
   </component>
   <component name="WindowStateProjectService">
     <state x="530" y="178" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1607535105445">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="530" y="178" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1600.860@0.0.1600.860" timestamp="1607535105445" />
-    <state x="432" y="47" key="CommitChangelistDialog2" timestamp="1607784890242">
+    <state x="432" y="47" key="CommitChangelistDialog2" timestamp="1607797914827">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="432" y="47" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1607784890242" />
+    <state x="432" y="47" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1607797914827" />
     <state width="1579" height="276" key="GridCell.Tab.0.bottom" timestamp="1607782426522">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -204,9 +217,13 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1579" height="276" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1607782426522" />
-    <state x="392" y="164" key="Vcs.Push.Dialog.v2" timestamp="1607784899160">
+    <state x="392" y="164" key="Vcs.Push.Dialog.v2" timestamp="1607797922210">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="164" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1607784899160" />
+    <state x="392" y="164" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1607797922210" />
+    <state x="92" y="92" width="1416" height="676" key="dock-window-1" timestamp="1607799082859">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="92" y="92" width="1416" height="676" key="dock-window-1/0.0.1600.860@0.0.1600.860" timestamp="1607799082859" />
   </component>
 </project>
