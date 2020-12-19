@@ -16,4 +16,14 @@ describe('<Card/>', () => {
         // eslint-disable-next-line jest/valid-expect
         expect(onClick).to.have.been.calledWith(0)
     })
+
+    it('should match its reference snapshot', () => {
+        const onClick = sinon.spy()
+        const wrapper = shallow(
+            <Card card="😁" feedback="hidden" index={0} onClick={onClick} />
+        )
+
+        // eslint-disable-next-line jest/valid-expect
+        expect(wrapper).to.matchSnapshot()
+    })
 })
