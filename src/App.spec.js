@@ -1,8 +1,22 @@
+import { expect } from 'chai'
 import React from 'react'
-import ReactDOM from 'react-dom'
+import { shallow } from 'enzyme'
+import GuessCount from "./GuessCount";
+
 import App from './App'
 
-it('renders without crashing', () => {
-    const div = document.createElement('div')
-    ReactDOM.render(<App />, div)
+
+describe('<App />', () => {
+
+    it('renders without crashing', () => {
+        const wrapper = shallow(<App />)
+
+        // eslint-disable-next-line jest/valid-expect
+        expect(wrapper).to.contain(<GuessCount guesses={0} />)
+    })
+
+    it('has 36 cards', () => {
+        const wrapper = shallow(<App />)
+        expect(wrapper.find('Card')).to.have.length(36)
+    })
 })
