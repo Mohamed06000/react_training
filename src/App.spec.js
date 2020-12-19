@@ -17,6 +17,7 @@ describe('<App />', () => {
 
     it('has 36 cards', () => {
         const wrapper = shallow(<App />)
+        // eslint-disable-next-line jest/valid-expect
         expect(wrapper.find('Card')).to.have.length(36)
     })
 })
