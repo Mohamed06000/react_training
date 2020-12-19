@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="319d9198-10a6-4a05-9a0c-cbc24c13198d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Card.spec.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.spec.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/setupTests.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -110,7 +110,7 @@
       <workItem from="1607882102592" duration="3878000" />
       <workItem from="1607979059560" duration="6235000" />
       <workItem from="1608316932495" duration="658000" />
-      <workItem from="1608381569566" duration="2536000" />
+      <workItem from="1608381569566" duration="3548000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1607456283362</created>
@@ -203,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608386644500</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="test with expect of chai + enzyme">
+      <created>1608388707127</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1608388707127</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,21 +230,22 @@
     <MESSAGE value="add state at our component" />
     <MESSAGE value="update comment" />
     <MESSAGE value="add chain for the test" />
-    <option name="LAST_COMMIT_MESSAGE" value="add chain for the test" />
+    <MESSAGE value="test with expect of chai + enzyme" />
+    <option name="LAST_COMMIT_MESSAGE" value="test with expect of chai + enzyme" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="392" y="89" key="#ESLint" timestamp="1608388032552">
+    <state x="392" y="89" key="#ESLint" timestamp="1608390646141">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="89" key="#ESLint/0.0.1600.860@0.0.1600.860" timestamp="1608388032552" />
+    <state x="392" y="89" key="#ESLint/0.0.1600.860@0.0.1600.860" timestamp="1608390646141" />
     <state x="530" y="178" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1607535105445">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="530" y="178" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1600.860@0.0.1600.860" timestamp="1607535105445" />
-    <state x="432" y="47" key="CommitChangelistDialog2" timestamp="1608386640849">
+    <state x="402" y="51" key="CommitChangelistDialog2" timestamp="1608388705640">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="432" y="47" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1608386640849" />
+    <state x="402" y="51" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1608388705640" />
     <state width="1579" height="222" key="GridCell.Tab.0.bottom" timestamp="1608388601717">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -258,10 +266,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="301" y="73" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1608388547508" />
-    <state x="392" y="164" key="Vcs.Push.Dialog.v2" timestamp="1608386647711">
+    <state x="392" y="164" key="Vcs.Push.Dialog.v2" timestamp="1608388709328">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="164" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1608386647711" />
+    <state x="392" y="164" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1608388709328" />
     <state x="92" y="92" width="1416" height="676" key="dock-window-1" timestamp="1607799082859">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
